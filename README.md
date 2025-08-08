@@ -30,11 +30,11 @@ A cool plugin for the wanted system and punishing criminals
 
 ## 🎫 placeholders
 
-%minestarwanted_stars%
-%minestarwanted_stars_display%
-%minestarwanted_max_stars%
-%minestarwanted_star_emoji%
-%minestarwanted_star_color%
+1. %minestarwanted_stars%
+2. %minestarwanted_stars_display%
+3. %minestarwanted_max_stars%
+4. %minestarwanted_star_emoji%
+5. %minestarwanted_star_color%
 
 
 
