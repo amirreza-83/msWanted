@@ -1,0 +1,44 @@
+# MinestarWanted Configuration
+
+# Star settings
+stars:
+  max_stars: 5
+  star_emoji: "⭐"
+  star_color: "RED"
+
+# Wanted system settings
+wanted_system:
+  enabled: true
+  stars_per_kill: 1
+  broadcast_messages: true
+
+# /zendan command settings
+zendan:
+  # Maximum distance to jail a player (blocks)
+  max_distance: 10
+  # Clear stars when player is jailed
+  clear_stars_on_jail: true
+  # Commands to execute when player is jailed (all executed from console)
+  commands:
+    - "say {player} has been sent to jail!"
+    - "broadcast §c{player} §fhas been sent to jail!"
+    - "effect give {player} blindness 10 1"
+    - "effect give {player} slowness 10 1"
+
+# Database settings
+database:
+  type: "json"
+  json_file: "wanted_data.json"
+
+# Messages
+messages:
+  prefix: "§8[§cMinestarWanted§8] §f"
+  player_not_found: "§cPlayer not found!"
+  player_sent_to_jail: "§a{player} has been successfully sent to jail!"
+  player_too_far: "§c{player} is too far away! Maximum distance: {distance} blocks"
+  no_permission: "§cYou don't have permission to use this command!"
+  stars_updated: "§a{player}'s stars have been updated to {stars}!"
+  invalid_amount: "§cInvalid amount!"
+  both_lost_wanted: "§a{player1} and {player2} both lost their wanted status!"
+  killer_got_wanted: "§c{player} now has {stars} wanted stars!"
+  player_not_wanted: "§c{player} doesn't have any wanted stars!"

@@ -1,0 +1,27 @@
+name: MinestarWanted
+version: 0.01
+main: top.minestar.minestar.MinestarWanted
+api-version: 1.13
+depend: [PlaceholderAPI]
+authors: [MinestarWanted]
+description: A wanted system with star placeholders and custom commands
+
+commands:
+  zendan:
+    description: Execute custom commands for a player
+    usage: /zendan <player>
+    permission: minestarwanted.zendan
+    permission-message: §cYou don't have permission to use this command!
+  wanted:
+    description: Manage player wanted stars
+    usage: /wanted <add/remove/set/check/help/reload> <player> [amount]
+    permission: minestarwanted.admin
+    permission-message: §cYou don't have permission to use this command!
+
+permissions:
+  minestarwanted.zendan:
+    description: Allows using the zendan command
+    default: op
+  minestarwanted.admin:
+    description: Admin permissions
+    default: op
