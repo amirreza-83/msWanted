@@ -28,6 +28,15 @@ A cool plugin for the wanted system and punishing criminals
 | /zendan         | Punish players               | `minestarwanted.zendan` |
 
 
+## 🎫 placeholders
+
+%minestarwanted_stars%
+%minestarwanted_stars_display%
+%minestarwanted_max_stars%
+%minestarwanted_star_emoji%
+%minestarwanted_star_color%
+
+
 
 ## 📄 License
 
