@@ -10,7 +10,7 @@ A cool plugin for the wanted system and punishing criminals
 
 ## 📥 Installation
 
-1. Download the latest `.jar` from [Releases](https://github.com/amirreza-83/msWanted/releases/tag/beta) or 
+1. Download the latest `.jar` from [Releases](https://github.com/amirreza-83/msWanted/releases/tag/beta) or [spigot](https://www.spigotmc.org/resources/mswanted-1-13-1-21-8-wanted-bounty-system.127810/)
 2. Put it in your server's `plugins` folder
 3. Restart or reload the server
 4. Enjoy riding!
